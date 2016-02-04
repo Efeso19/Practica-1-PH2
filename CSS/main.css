@@ -1,0 +1,99 @@
+
+/*Este codigo corresponde al rating de la parte del index.html*/
+.star-rating a {
+	font-size: 20px;
+	display: inline-block;
+	color: #95a5a6; 
+}
+.star-rating:hover a {
+	color: #f39c12; 
+}
+.star-rating:hover a:hover ~ a {
+	color: #95a5a6; 
+}
+
+body{
+	background-color: rgb(233,233,233);
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	text-align: center;
+}
+
+header{
+	position: absolute;
+	
+}
+
+article{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 480px) {
+	/*esto es para que el estilo de adapte, aqui metere los valores para los diseños que no son mobile*/
+	body{
+		background-color: green;
+
+	}
+
+	nav{
+
+		background-color: black;
+		text-align: center;
+		height: 70px;
+		margin: -10px;
+		padding-top: 35px;
+
+	}
+
+	nav a{
+		font-family: 'Oswald', sans-serif;
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+	}
+
+	nav a:hover{
+		color: red;
+	}
+
+	header>h1{
+		color: white;
+		position: relative;
+		top: -80px;
+		left: 75px;
+	
+	}
+}
+
+@media (min-width: 1100px) {
+	/*esto es para que el estilo de adapte, aqui metere los valores para los diseños que no son mobile*/
+	body{
+		background-color: rgb(233,233,233);
+		
+	}
+	header>h1{
+		color: white;
+		position: relative;
+		top: -80px;
+		left: 90px;
+	
+	}
+	#ultimos5viajes{
+
+		display: block;
+	}
+
+	
+}
+
